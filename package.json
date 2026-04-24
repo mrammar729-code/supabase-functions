@@ -1,0 +1,18 @@
+{
+  "name": "supabase-functions-nia4",
+  "version": "1.0.0",
+  "description": "Vercel Serverless Functions with Web Analytics",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build needed for static site'",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
